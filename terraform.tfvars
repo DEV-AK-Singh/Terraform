@@ -1,0 +1,10 @@
+resource_group_name = "my-terra-rg"
+location = "Central India"
+vnet = "my-terra-vnet"
+vnet_address_space = ["10.0.0.0/16"]
+subnet = "my-terra-subnet"
+subnet_address_prefix = ["10.0.1.0/24"]
+nsg = "my-terra-nsg"
+vm_name = "my-terra-vm"
+vm_size = "Standard_B1s"
+admin_user = "azureuser"
